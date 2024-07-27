@@ -19,7 +19,7 @@ const HealthCareModelPage = () => {
             </div>
             <div className="healthcare">
                 <img src={health} alt="Healthcare Models" className="sectionimage" />
-                <h2>Healthcare Models</h2>
+                <h2> Hearth cancer Models</h2>
                 <p>Here is some information about our healthcare models. They are designed to assist in various healthcare scenarios.</p>
                 <Link to="/healthcare-models">
                     <button className="btn">Go to Healthcare Models</button>
