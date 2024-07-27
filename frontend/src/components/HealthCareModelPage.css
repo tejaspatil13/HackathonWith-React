@@ -1,0 +1,83 @@
+/* src/components/HealthCareModelPage.css */
+
+.homepage-container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding: 40px;
+    background: #f5f5f5;
+    min-height: 100vh;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Add horizontal scrolling if needed */
+}
+
+.healthcare {
+    flex: 0 0 25%; /* Make each section take up 25% of the container's width */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px; /* Add some horizontal margin between sections */
+}
+
+.healthcare h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.healthcare p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.sectionimage {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .healthcare {
+        flex: 0 0 30%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage-container {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        justify-content: center;
+    }
+    .healthcare {
+        flex: 0 0 45%; /* Adjust width for smaller screens */
+        margin-bottom: 20px; /* Add margin for bottom to space out rows */
+    }
+}
+
+@media (max-width: 480px) {
+    .healthcare {
+        flex: 0 0 90%; /* Full width on very small screens */
+    }
+}
