@@ -27,7 +27,7 @@ const HealthCareModelPage = () => {
             </div>
             <div className="healthcare">
                 <img src={house} alt="ML Models" className="sectionimage" />
-                <h2>ML Models</h2>
+                <h2>calories ML model</h2>
                 <p>Here is some information about our ML models. They are state-of-the-art models built to tackle various problems.</p>
                 <Link to="/ml-models">
                     <button className="btn">Go to ML Models</button>
