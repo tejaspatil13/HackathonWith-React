@@ -22,7 +22,7 @@ const HomePage = () => {
                 <h2>Healthcare Models</h2>
                 <p> Here is some information about our ML models. They are state-of-the-art models built to tackle various problems. Here is some information about our ML models. They are state-of Here is some information about our ML models. They are state-of Here is some information about our ML models. They are state-of</p>
                 <Link to="/healthcare-models">
-                    <button className="btn">Go Healthcare Models</button> 
+                    <button className="btn">Healthcare Models</button> 
                 </Link>
             </div>
         </div>
