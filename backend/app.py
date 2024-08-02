@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Define the correct path to your model
-working_dir = '/Users/tejaspatil/Desktop/HackathonWith React/backend'
+working_dir = '/Users/tejaspatil/Desktop/HackathonWith-React/backend'
 model_path = os.path.join(working_dir, 'saved_models', 'diabetes_model.sav')
 
 # Ensure the model file exists

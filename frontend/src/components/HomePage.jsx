@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="homepage-container">
             <div className="section ml-models">
                 <img src={house} alt="ML Models" className="section-image" />
-                <h2 className="text-red-400">Home Price Prediction</h2>
+                <h2 className="text-red-400">Price Prediction</h2>
                 <p>Here is some information about our ML models. They are state-of-the-art models built to tackle various problems. Here is some information about our ML models. They are state-of Here is some information about our ML models. They are state-of Here is some information about our ML models. They are state-of</p>
                 <Link to="/ml-models">
                     <button className="btn">Go to ML Models</button>

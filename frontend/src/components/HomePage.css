@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 40px;
-    background: #F5F5F5;
+    background: #000000;
     min-height: 100vh;
     flex-wrap: wrap;
     gap: 40px; /* Add space between sections */
@@ -13,7 +13,7 @@
 
 .section {
     width: 45%;
-    background: #FFF; 
+    background: #ccadada0; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
